@@ -22,8 +22,6 @@ import "strconv"
 
 func (c Code) String() string {
 	switch c {
-	case OK:
-		return "OK"
 	case Canceled:
 		return "Canceled"
 	case Unknown:
